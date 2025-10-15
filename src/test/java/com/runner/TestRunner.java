@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 			features="./src/test/resources/demo.feature",
 			glue="com.runner",
 			plugin= {
-					"pretty","html:target/testreport.html"
+					"pretty","io.qameta.allure.cucmber7jvm.AllureCucumber7Jvm"
 			}
 //		tags="@Completed"
 			
